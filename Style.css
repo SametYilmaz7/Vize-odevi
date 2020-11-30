@@ -1,0 +1,165 @@
+/* HTML Tagleri için yazdığım css kodları,
+Burada pozisyonlarını ayarlayıp arka plana resim koydum.
+Ayrıca yatay scrol çubuğunu kaldırdım.
+ */
+body {
+    background-image: url('Resimler/arkaplan_photo.jpg');
+    overflow-x: hidden;
+}
+
+header {
+    height: 180px;
+}
+
+article {
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+
+
+/* Listeler için ayarladığım css kodları,
+başlarındaki işareti kaldırıp yazı şekillerini ve pozisyonlarını ayarladım.*/
+ul li {
+    font-size: 20px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    list-style-type: none;
+    padding: 50px;
+    position: relative;
+    top: 100px;
+}
+
+ol li {
+    font-size: 20px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    list-style-type: none;
+}
+
+
+/* Linkler için gerekli css kodları,
+tıklandıgında renkleri sabit kalması ve tıklandığında arka plan renginin değişmesini ayarladım.
+Ayrıca altlarındaki çizgiyi kaldırdım. */
+a {
+    text-decoration: none;
+}
+
+
+a:active {
+    background-color: whitesmoke;
+}
+
+a:link {
+    color: gainsboro;
+}
+
+a:visited {
+    background-color: gray;
+    color: gainsboro;
+}
+
+
+/* Header kısmındaki divler için ayarladığım kodlar,
+Slogan ve fotoğrafın yerleşeceği divlerin boyutu ve pozisyonlarını ayarladım. */
+.slogan {
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+.logo {
+    height: 150px;
+    width: 15%;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+
+}
+
+
+/* Fotoğraflar için gerekli css kodları,
+boyutlarını ve pozisyonlarını ayarladım.
+Ayrıca köşelerindeki kısımları oval hale getirdim. */
+#logo-photo {
+    border-radius: 30%;
+    height: 150px;
+    width: 288px;
+}
+
+#anasayfa-photo {
+    border-radius: 10%;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 130px;
+
+}
+
+#hayati-photo {
+    border-radius: 10%;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 130px;
+    left: 250px;
+}
+
+#eserleri-photo {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    bottom: 130px;
+    left: 50px;
+}
+
+
+/* Sayfadaki paragraflar için gerekli css kodları,
+font ayarları, pozisyonları ve renklerini ayarladım */
+#slogan-p {
+    font-family: Gill Sans, sans-serif;
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    right: 100px;
+
+}
+
+#slogan-p2 {
+    color: whitesmoke;
+    font-family: Courier New, monospace;
+    font-size: 20px;
+    position: relative;
+    bottom: 170px;
+    left: 600px;
+}
+
+#anasayfa-yazi {
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
+
+#hayati-yazi {
+    color: white;
+    position: relative;
+    bottom: 100px;
+
+}
+
+#eserleri-yazi {
+    color: white;
+    position: relative;
+    bottom: 650px;
+    left: 500px;
+}
+
+#eserleri-title {
+    color: White;
+    position: relative;
+    bottom: 650px;
+    left: 500px;
+    text-decoration: underline;
+}
